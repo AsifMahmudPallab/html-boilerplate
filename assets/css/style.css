@@ -1,0 +1,100 @@
+/*---------------------------------------------
+Template name:  ..................
+Version:        1.0.0
+Author:         ..................
+Author url:     ..................
+Developer:      Asif Mahmud
+
+
+
+
+
+/*=============================================
+    01: General CSS
+==============================================*/
+
+/* 1.1: Default CSS */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+::-moz-selection {
+    background: #31333e;
+    color: #fff;
+    text-shadow: none;
+}
+::selection {
+    background: #31333e;
+    color: #fff;
+    text-shadow: none;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+
+}
+
+textarea { resize: none; }
+
+img {
+    max-width: 100%;
+    height: auto; 
+}
+
+a {
+    color: #31333e;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+a:hover { color: #ff7353; }
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, h6, 
+.h1, .h2, .h3, .h4, .h5, .h6 { 
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #333333;
+    line-height: 1.4;
+}
+h1, .h1 { font-size: 60px; line-height: 80px; }
+h2, .h2 { font-size: 30px; }
+h3, .h3 { font-size: 24px; line-height: 32px;}
+h4, .h4 { font-size: 18px; }
+h5, .h5 { font-size: 16px; } 
+h6, .h6 { font-size: 14px; }
+
+p {
+    line-height: 26px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #777777;
+    background: #fff;
+    line-height: 26px;
+    overflow-x: hidden !important;
+}
+
+select {
+    -webkit-appearance: none;
+        -moz-appearance: none;
+            appearance: none;
+}
+/* select::-ms-expand {
+    display: none;
+} */
+
